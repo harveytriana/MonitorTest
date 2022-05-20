@@ -55,7 +55,7 @@ namespace MonitorTest
 
         void Echo(string text)
         {
-            toolStripStatusLabelEcho.Text = text;
+            textBoxData.Text = text;
         }
 
         string ApiRoot

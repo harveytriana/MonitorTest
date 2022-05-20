@@ -36,12 +36,9 @@
             this.textBoxApiRoot = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.textBoxData = new System.Windows.Forms.TextBox();
-            this.statusStrip = new System.Windows.Forms.StatusStrip();
-            this.toolStripStatusLabelEcho = new System.Windows.Forms.ToolStripStatusLabel();
             this.groupBoxUid.SuspendLayout();
             this.groupBoxApiRoot.SuspendLayout();
             this.groupBox1.SuspendLayout();
-            this.statusStrip.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBoxUid
@@ -126,28 +123,11 @@
             this.textBoxData.Size = new System.Drawing.Size(313, 121);
             this.textBoxData.TabIndex = 0;
             // 
-            // statusStrip
-            // 
-            this.statusStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripStatusLabelEcho});
-            this.statusStrip.Location = new System.Drawing.Point(0, 372);
-            this.statusStrip.Name = "statusStrip";
-            this.statusStrip.Size = new System.Drawing.Size(413, 22);
-            this.statusStrip.TabIndex = 20;
-            this.statusStrip.Text = "statusStrip";
-            // 
-            // toolStripStatusLabelEcho
-            // 
-            this.toolStripStatusLabelEcho.Name = "toolStripStatusLabelEcho";
-            this.toolStripStatusLabelEcho.Padding = new System.Windows.Forms.Padding(6, 0, 0, 0);
-            this.toolStripStatusLabelEcho.Size = new System.Drawing.Size(6, 17);
-            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(413, 394);
-            this.Controls.Add(this.statusStrip);
+            this.ClientSize = new System.Drawing.Size(413, 376);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.groupBoxUid);
             this.Controls.Add(this.label1);
@@ -162,10 +142,7 @@
             this.groupBoxApiRoot.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            this.statusStrip.ResumeLayout(false);
-            this.statusStrip.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -178,8 +155,6 @@
         private System.Windows.Forms.GroupBox groupBoxApiRoot;
         private System.Windows.Forms.TextBox textBoxApiRoot;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.StatusStrip statusStrip;
-        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabelEcho;
         private System.Windows.Forms.TextBox textBoxData;
     }
 }

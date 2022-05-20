@@ -45,7 +45,7 @@ namespace MonitorTest
 
             _hub = new HubConnectionBuilder()
               .WithUrl(_apiRoot + HUB)
-              //.AddMessagePackProtocol()
+              //* .AddMessagePackProtocol()
               .WithAutomaticReconnect() //... is unsubscribe
               .Build();
 
