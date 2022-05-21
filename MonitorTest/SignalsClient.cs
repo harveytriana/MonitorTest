@@ -8,7 +8,9 @@ using System.Net;
 using System.Net.Http;
 using System.Threading.Tasks;
 // for binary protocol
-//* using Microsoft.Extensions.DependencyInjection;
+// using Microsoft.Extensions.DependencyInjection;
+// needs Microsoft.AspNetCore.SignalR.Protocols.MessagePack
+// remove all //*
 
 namespace MonitorTest
 {
@@ -29,7 +31,7 @@ namespace MonitorTest
 
         const string HUB = "TU";
         const string NAME = "MONITOR";
-        const int RECORD_VERSION = 3; //* best structure
+        const int RECORD_VERSION = 3; // best structure
 
         public bool Active => _active;
 
