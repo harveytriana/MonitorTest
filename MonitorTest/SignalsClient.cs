@@ -53,7 +53,7 @@ namespace MonitorTest
 
             _hub.On<OnlineStatus>("notifyData", (onlineStatus) => {
                 if(onlineStatus != null) {
-                    if(_t < onlineStatus.Time) {// important. Evoid sending the same
+                    if(_t < onlineStatus.Time) {// important, avoid sending the same
                         _t = onlineStatus.Time;
                         EmitOnlineRecord(onlineStatus);
                     }

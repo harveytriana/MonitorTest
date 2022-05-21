@@ -53,10 +53,7 @@ namespace MonitorTest
             textBoxData.Text = sb.ToString();
         }
 
-        void Echo(string text)
-        {
-            textBoxData.Text = text;
-        }
+        void Echo(string text) => textBoxData.Text = text;
 
         string ApiRoot
         {
